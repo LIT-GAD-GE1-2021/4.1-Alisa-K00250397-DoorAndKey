@@ -115,6 +115,8 @@ public class CharacterController : MonoBehaviour
     // A variable to store the Animator component attached to this game object
     private Animator theAnimator;
 
+    
+
 
     void Start()
     {
@@ -384,4 +386,7 @@ public class CharacterController : MonoBehaviour
         yield return new WaitForSeconds(dashDuration);
         dashing = false;
     }
+
+
+   
 }
